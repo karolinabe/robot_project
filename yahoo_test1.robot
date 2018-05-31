@@ -40,7 +40,7 @@ Invalid Username Test
     Input Birth Year  1987
     Input Gender  Female
     Click Button  ${continue}
-    Page Should Contain  ${error_message}  loglevel=DEBUG
+    Page Should Contain  ${error_message}
     [Teardown]  Close Browser
 
 
